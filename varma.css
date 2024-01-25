@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#movies {
+    margin-top: 20px;
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.movie {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.movie img {
+    max-width: 100%;
+    height: auto;
+}
+.date-box {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.star {
+    color: #ddd;
+    transition: color 0.3s;
+}
+
+.star:hover {
+    color: #ff9800;
+}
+
+.filled {
+    color: #ff9800;
+}
